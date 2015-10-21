@@ -20,7 +20,11 @@ if [ $oper = "+" ]
    then
       echo $((num1+num2))
 elif [ $oper = "-" ]
+<<<<<<< HEAD
    then  
+=======
+   then
+>>>>>>> 5967d324b6cfe583638112ae09a68f2f5ea2fdbe
       echo $((num1-num2))
 elif [ $oper = "/" ]
    then
@@ -29,8 +33,12 @@ elif [ $oper = "x" ]
    then
       echo $((num1*num2))
 
+<<<<<<< HEAD
 fi 
 
 
 
 
+=======
+fi
+>>>>>>> 5967d324b6cfe583638112ae09a68f2f5ea2fdbe
